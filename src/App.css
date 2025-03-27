@@ -1,1 +1,43 @@
 @import "tailwindcss";
+
+/* [data-tauri-drag-region] {
+    -webkit-app-region: drag;
+}
+
+[data-tauri-drag-region-exclude] {
+    -webkit-app-region: no-drag;
+} */
+
+body {
+    background-color: color-mix(in oklab, var(--color-slate-800)
+            /* oklch(0.279 0.041 260.031) = #1d293d */
+            70%, transparent);
+
+    backdrop-filter: blur(20px);
+}
+
+.titlebar {
+    height: 30px;
+    /* background: #314057; */
+    user-select: none;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.titlebar-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.titlebar-button:hover {
+    background: #5a77a2;
+}
