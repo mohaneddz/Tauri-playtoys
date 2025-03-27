@@ -1,4 +1,3 @@
-Collecting workspace information```markdown
 # ⚙️Tauri PlayToys 
 
 This repository is a collection of experimental tools and utilities built using the [Tauri](https://tauri.app/) framework, [Rust](https://www.rust-lang.org/), and Typescript. These tools leverage Rust's low-level access to operating system features and expose them through a modern JavaScript API, enabling lightweight, secure, and cross-platform desktop applications. It serves as a playground for exploring the capabilities of Tauri and Rust plugins.
