@@ -23,7 +23,7 @@ export default function Clipboard() {
     getClipboardText();
 
     return (
-        <div className="border-2 border-dashed border-gray-400 p-4 text-slate-400">
+        <div className="border-2 text-center border-dashed border-gray-400 p-4 text-slate-400">
             <p>{content ? content : 'Clipboard is empty'}</p>
         </div>
     )

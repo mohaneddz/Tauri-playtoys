@@ -47,7 +47,7 @@ export default function Droparea() {
     }, []);
 
     return (
-        <div className="border-2 border-dashed border-gray-400 p-4 text-slate-400">
+        <div className="border-2 border-dashed border-gray-400 p-4 text-slate-400 text-center">
             <p>Dropped File: {fileDropped}</p>
 
             {fileContent && (
